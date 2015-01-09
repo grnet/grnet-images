@@ -1,0 +1,131 @@
+centos (6-19) diskdump; urgency=medium
+
+  * Update the grub timeout to 10 seconds
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 15:11:55 +0200
+
+centos (6-18) diskdump; urgency=medium
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 14:28:18 +0200
+
+centos (6-17) diskdump; urgency=low
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 09 Oct 2014 17:45:32 +0300
+
+centos (6-16) diskdump; urgency=low
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 10 Apr 2014 13:17:28 +0300
+
+centos (6-15) diskdump; urgency=low
+
+  * Change version from 6.x to 6
+  * Do a full upgrade (yum upgrade)
+  * Remove dhcp leases and NetworkManager state files
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 26 Feb 2014 16:01:26 +0200
+
+centos (6.x-14) diskdump; urgency=low
+
+  * Change version from 6.0 to 6.x
+  * Do a full upgrade (yum upgrade)
+  * Open dhcpv6-client port in the firewall
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 24 Feb 2014 18:15:06 +0200
+
+centos (6.0-13) diskdump; urgency=low
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 11 Feb 2014 10:58:16 +0200
+
+centos (6.0-12) diskdump; urgency=low
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 25 Sep 2013 12:16:10 +0300
+
+centos (6.0-11) diskdump; urgency=low
+
+  * Do a full upgrade (yum update)
+  * Unhide GRUB menu
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 28 May 2013 13:36:28 +0300
+
+centos (6.0-10) diskdump; urgency=low
+
+  * Do a full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 28 Dec 2012 18:51:02 +0200
+
+centos (6.0-9) diskdump; urgency=low
+
+  * Do a full upgrade (yum update)
+  * Install network-manager
+  * Disable time dependent file system checking
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 31 Aug 2012 20:53:33 +0300
+
+centos (6.0-8) diskdump; urgency=low
+
+  * Update system through yum
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 19 Jan 2012 19:29:56 +0200
+
+centos (6.0-7) diskdump; urgency=low
+
+  * Convert image to diskdump format
+  * Install NTP server
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 05 Dec 2011 19:25:14 +0200
+
+centos (6.0-6) extdump; urgency=low
+
+  * Install grub to the partition instead of the MBR.
+  * Remove -root field from the image name.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 10 Oct 2011 17:15:27 +0300
+
+centos-6.0-5-x86_64-root.extdump
+
+  * Remove HWADDR line from /etc/sysconfig/network-scripts/ifcfg-eth0.
+    Only removing the udev rule was not enough.
+  * Clean-up root's .bash_history file.
+  * Remove all /var/log files.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 16 Sep 2011 11:20:21 +0300
+
+centos-6.0-4-x86_64-root.extdump
+
+  * Remove /etc/udev/rules.d/70-persistent-net.rules.
+    This file had a udev rule for persistent assignment of eth0 to the nic of
+    the initial machine the image was made of. This rule forced the instance's
+    nic to get assigned to eth1. Since the machine was configured to try dhcp on
+    eth0 only, the network was not working.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 15 Sep 2011 16:59:29 +0300
+
+centos-6.0-3-x86_64-root.extdump
+
+  * Fixed a bug. The image was not bootable
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 14 Sep 2011 17:42:28 +0300
+
+centos-6.0-2-x86_64-root.extdump
+
+  * Change image format to extdump
+  * Use ext4 filesystem for /
+  * Install acpid
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 08 Sep 2011 10:40:28 +0300
+
+centos-6.0-1-x86_64-root.dump
+
+  * Initial image for Centos 6.0
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 12 Jul 2011 15:31:52 +0300

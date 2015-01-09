@@ -1,0 +1,26 @@
+ubuntu (13.10-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 10 Apr 2014 17:36:07 +0300
+
+ubuntu (13.10-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Add MATE
+  * Enable MATE as the default session
+  * Disable guest login in lightdm
+  * Install openssh server
+  * Install ntp server
+  * Install x2go-server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Disable ipv6 privacy extensions
+  * Unhide GRUB menu
+  * Change resolution to 1024x768
+  * Add Greek keyboard layout
+  * Disable time-dependent file system checking
+  * Make all interfaces managed by NetworkManager
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Tue, 10 Dec 2013 13:38:41 EET 2013

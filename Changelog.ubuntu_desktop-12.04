@@ -1,0 +1,69 @@
+ubuntu-desktop (12.04-9) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 30 Dec 2014 16:16:44 +0200
+
+ubuntu-desktop (12.04-8) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Oct 2014 17:54:22 +0300
+
+ubuntu-desktop (12.04-7) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 10 Apr 2014 16:58:40 +0300
+
+ubuntu-desktop (12.04-6) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Make sure NetworkManager manage all interfaces (managed=true)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 19 Dec 2013 16:08:43 +0200
+
+ubuntu-desktop (12.04-5) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Add grub recordfail timeout
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 27 Sep 2013 17:22:31 +0300
+
+ubuntu-desktop (12.04-4) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Unhide GRUB menu
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Tue 28 May 00:29:46 EEST 2013
+
+ubuntu-desktop (12.04-3) diskdump; urgency=low
+
+  * Add Greek keyboard layout in Unity
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 28 Feb 2013 14:48:10 +0200
+
+ubuntu-desktop (12.04-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Rename image to ubuntu_desktop
+  * Add greek locale
+  * Install x2goserver
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 25 Feb 2013 19:18:04 +0200
+
+ubuntu (12.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Enable Unity2D as the default session
+  * Disable guest login in lightdm
+  * Install openssh server
+  * Install ntp server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Make sure grub2 does timeout after dirty shutdowns.
+  * Disable ipv6 privacy extensions
+  * Enable PCI Hotplug by loading acpiphp module at boot
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 24 Aug 2012 16:02:29 +0300

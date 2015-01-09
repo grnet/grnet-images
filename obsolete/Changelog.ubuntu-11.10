@@ -1,0 +1,13 @@
+ubuntu (11.10-1) diskdump; urgency=low
+
+  * Initial installation
+  * Added user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Enabled Unity2D as the default session
+  * Disabled guest login in lightdm
+  * Install openssh server
+  * Configure acpid to emmediately shutdown when the powerbutton is pressed
+  * Make sure grub2 does timeout after dirty shutdowns.
+  * Add nxinstaller script under /usr/local/sbin/
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 03 Feb 2012 14:00:00 +0200

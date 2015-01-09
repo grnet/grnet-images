@@ -1,0 +1,29 @@
+kubuntu (14.04-3) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 30 Dec 2014 15:20:24 +0200
+
+kubuntu (14.04-2) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Oct 2014 17:20:24 +0300
+
+kubuntu (14.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Configure acpid to immediately shutdown the power button is pressed
+  * Enable ssh-server at startup
+  * Enable ntpd at startup
+  * Disable ipv6 privacy extensions
+  * Disable time-dependent file system checking, and enable count-dependent
+  * Disable guest in lightdm
+  * Make NetworkManager manage all interfaces
+  * Install x2go
+  * Add grub recordfail timeout
+  * Add Greek keyboard layout in KDE
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 09 May 2014 19:39:52 +0300

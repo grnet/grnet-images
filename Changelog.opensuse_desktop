@@ -1,0 +1,65 @@
+opensuse-desktop (13.1-6) diskdump; urgency=medium
+
+  * Full upgrade (zupper update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Oct 2014 18:40:34 +0300
+
+opensuse-desktop (13.1-5) diskdump; urgency=low
+
+ * Full upgrade (zypper update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 27 Aug 2014 16:08:21 +0300
+
+opensuse-desktop (13.1-4) diskdump; urgency=low
+
+ * Full upgrade (zypper update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 10 Apr 2014 19:35:30 +0300
+
+opensuse-desktop (13.1-3) diskdump; urgency=low
+
+ * Full upgrade (zypper update)
+ * Open dhcpv3-client port in the Firewall
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 24 Feb 2014 15:26:55 +0200
+
+opensuse-desktop (13.1-2) diskdump; urgency=low
+
+ * Full upgrade (zypper update)
+ * Enable Network Manager
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Thu Jan 9 18:02:50 EET 2014
+
+opensuse-desktop (13.1-1) diskdump; urgency=low
+
+ * Upgrade to OpenSUSE 13.1
+ * Add PowerKeyIgnoreInhibited=yes in /etc/systemd/logind.conf
+ * Add a new acpid script for powerbtn
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 12 Dec 2013 18:02:58 +0200
+
+opensuse-desktop (12.3-3) diskdump; urgency=low
+
+ * Full upgrade (zypper update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 01 Oct 2013 11:20:55 +0300
+
+opensuse-desktop (12.3-2) diskdump; urgency=low
+
+ * Enable autorefresh of the x2go repository
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 16 Jul 2013 15:41:51 +0300
+
+opensuse-desktop (12.3-1) diskdump; urgency=low
+
+ * Initial installation
+ * Added user `user'
+ * Full upgrade (zypper update)
+ * Enable ssh-server at startup
+ * Install x2goserver
+ * Disabled ipv6 privacy extensions
+ * Disabled time-dependent file system checking and enables count-dependent
+ * Installed grub in the MBR
+ * Changed resolution to 1024x768
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 15 Jul 2013 18:25:20 +0300

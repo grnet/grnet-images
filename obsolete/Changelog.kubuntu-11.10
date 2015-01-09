@@ -1,0 +1,11 @@
+kubuntu (11.10-1) diskdump; urgency=low
+
+  * Initial installation
+  * Added user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Configure acpid to immediately shutdown the power button is pressed
+  * Enable ssh-server at startup
+  * Make sure grub2 menu does timeout after dirty shutdowns
+  * Add nxinstaller script under /usr/local/sbin/
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 30 Jan 2012 13:40:36 +0200

@@ -1,0 +1,27 @@
+ubuntu (13.04-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Add grub recordfail timeout
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 27 Sep 2013 12:54:49 +0300
+
+ubuntu (13.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Add gnome-fallback
+  * Enable gnome-fallback as the default session
+  * Disable guest login in lightdm
+  * Install openssh server
+  * Install ntp server
+  * Install x2go-server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Disable ipv6 privacy extensions
+  * Enable PCI Hotplug by loading acpiphp module at boot
+  * Unhide GRUB menu
+  * Change resolution to 1024x768
+  * Add Greek keyboard layout
+  * Disable time-dependent file system checking
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Mon, 27 May 2013 23:22:46 +0300

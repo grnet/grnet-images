@@ -1,0 +1,60 @@
+kubuntu (12.04-8) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Increase the GRUB timeout to 10 seconds
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 30 Dec 2014 15:00:49 +0200
+
+kubuntu (12.04-7) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Oct 2014 16:37:36 +0300
+
+kubuntu (12.04-6) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 08 Apr 2014 13:24:24 +0300
+
+kubuntu (12.04-5) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Add grub recordfail timeout
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Sat, 28 Sep 2013 10:37:43 +0300
+
+kubuntu (12.04-4) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Unhide GRUB menu
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 28 May 2013 00:57:21 +0300
+
+kubuntu (12.04-3) diskdump; urgency=low
+
+  * Add greek keyboard layout in KDE
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 27 Feb 2013 19:45:18 +0200
+
+kubuntu (12.04-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Add greek locale
+  * Install x2goserver
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 25 Feb 2013 19:20:50 +0200
+
+kubuntu (12.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Configure acpid to immediately shutdown the power button is pressed
+  * Enable ssh-server at startup
+  * Enable ntpd at startup
+  * Make sure grub2 menu does timeout after dirty shutdowns
+  * Disable ipv6 privacy extensions
+  * Enable PCI Hotplug
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 27 Aug 2012 15:52:02 +0300

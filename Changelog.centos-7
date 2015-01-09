@@ -1,0 +1,22 @@
+centos (7-3) diskdump; urgency=medium
+
+  * Full upgrade (yum upgrade)
+  * Make grub timeout 10 seconds 
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 14:45:10 +0200
+
+centos (7-2) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 09 Oct 2014 15:55:22 +0300
+
+centos (7-1) diskdump; urgency=low
+
+  * Initial installation
+  * Full upgrade
+  * Install acpid
+  * Disable time dependent file system check
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 05 Aug 2014 13:17:28 +0300
+

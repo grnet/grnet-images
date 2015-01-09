@@ -1,0 +1,47 @@
+freebsd (10.0-1) diskdump; urgency=medium
+
+  * Initial image
+  * Add support for Greek
+  * Reduce the dhclient timeout time
+  * Disable IPv6 privacy extensions
+  * Add static configuration for 8 NICs
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 29 Oct 2014 16:01:15 +0200
+
+freebsd (9.2-2) diskdump; urgency=low
+
+  * Add static configuration for 8 NICs
+  * Make sure IPv6 privacy extensions stay disabled
+  * Reduce the dhclient timeout time
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Jan 2014 17:29:48 +0200
+
+freebsd (9.2-1) diskdump; urgency=low
+
+  * Upgrade to FreeBSD 9.2
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 15 Oct 2013 16:57:55 +0300
+
+freebsd (9.1-3) diskdump; urgency=low
+
+  * Full system update (freebsd-update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 03 Oct 2013 10:43:12 +0300
+
+freebsd (9.1-2) diskdump; urgency=low
+
+  * Add better support for Greek
+  * Cleanup the image using snf-image-creator
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 24 May 2013 16:37:56 +0300
+
+freebsd (9.1-1) diskdump; urgency=low
+
+  * Initial image
+  * Add virtio drivers
+  * Enable openssh server
+  * Add greek keyboard
+  * Enable ntpd server
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 17 May 2013 11:25:38 +0300
+

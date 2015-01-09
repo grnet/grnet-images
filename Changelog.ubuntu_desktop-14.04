@@ -1,0 +1,32 @@
+ubuntu-desktop (14.04-3) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 30 Dec 2014 16:50:26 +0200
+
+ubuntu-desktop (14.04-2) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Oct 2014 16:01:24 +0300
+
+ubuntu-desktop (14.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Add MATE
+  * Enable MATE as the default session
+  * Disable guest login in lightdm
+  * Install openssh server
+  * Install ntp server
+  * Install x2go-server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Disable ipv6 privacy extensions
+  * Unhide GRUB menu
+  * Change resolution to 1024x768
+  * Add Greek keyboard layout
+  * Disable time-dependent file system checking
+  * Make all interfaces managed by NetworkManager
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 09 May 2014 15:27:12 +0300

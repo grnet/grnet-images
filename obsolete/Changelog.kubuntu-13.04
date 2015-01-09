@@ -1,0 +1,22 @@
+kubuntu (13.04-2) diskdump; urgency=low
+  * Full upgrade (apt-get dist-upgrade)
+  * Add grub recordfail timeout
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 27 Sep 2013 16:15:24 +0300
+
+kubuntu (13.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Configure acpid to immediately shutdown the power button is pressed
+  * Enable ssh-server at startup
+  * Enable ntpd at startup
+  * Disable ipv6 privacy extensions
+  * Disable time-dependent file system checking, and enable count-dependent
+  * Disable guest in lightdm
+  * Enable PCI Hotplug
+  * Install x2go
+  * Add Greek keyboard layout in KDE
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Mon, 27 May 2013 21:35:18 +0300

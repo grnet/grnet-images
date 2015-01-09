@@ -1,0 +1,23 @@
+windows (2012R2-2) diskdump; urgency=medium
+
+  * Do a full system upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 16 Oct 2014 15:27:49 +0300
+
+windows (2012R2-1) diskdump; urgency=low
+
+  * Initial Installation of Windows Server 2012R2 Datacenter Edition
+  * Do a full system upgrade
+  * Install virtio drivers version 0.1-81
+  * Install mozilla-firefox
+  * Disable ipv6 privacy extensions
+  * Disable Teredo Tunneling Protocol
+  * Disable ISATAP Adapters
+  * Enable pings
+  * Disable automatic restarts upon boot failure
+  * Set hardware clock to UTC
+  * Disable Shutdown Event Tracker
+  * Enable Desktop Experience
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 13 May 2014 11:46:21 +0300
+

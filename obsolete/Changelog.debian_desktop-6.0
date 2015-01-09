@@ -1,0 +1,58 @@
+debian-desktop (6.0-9) diskdump; urgency=low
+
+  * Full upgrade to 6.0.7
+  * Install x2goserver
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 26 Feb 2013 14:21:26 +0200
+
+debian-desktop (6.0-8) diskdump; urgency=low
+
+  * Full upgrade to 6.0.6
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 16 Oct 2012 13:07:28 +0300
+
+debian-desktop (6.0-7) diskdump; urgency=low
+
+  * Add support for pci_hotplug (load the apropriate modules at boot)
+  * Full update (apt-get upgrade)
+  * Remove broken nxinstaller script
+  * Add greek keyboard layout in console and GNOME
+  * Fix acpid to immedialety shutdown when a power button event occurs
+  * Disable time dependent file system checking
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 30 Aug 2012 18:08:55 +0300
+
+debian-desktop (6.0-6) diskdump; urgency=low
+
+  * Add non-root user user
+  * Full update (apt-get upgrade)
+  * Install nxinstaller script at /usr/local/sbin
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 27 Jan 2012 13:59:34 +0200
+
+debian-desktop (6.0-5) diskdump; urgency=low
+
+  * Convert to diskdump
+  * Install NTP client
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 05 Dec 2011 19:44:20 +0200
+
+debian-desktop (6.0-4) extdump; urgency=low
+
+  * Convert to extdump
+  * Remove redundant version numbers and -root field
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 21 Nov 2011 18:27:22 +0200
+
+debian_desktop-6.0.2.1-3-x86_64-root.dump
+
+  * Configure gnome-power-manager to immediately execute shutdown or reboot
+  requests without interacting with the user.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 04 Aug 2011 20:26:56 +0300
+
+debian_desktop-6.0.2.1-2-x86_64-root.dump
+
+  * Remove pam gdm3 rule that does not allow to root to login from gdm
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 12 Jul 2011 16:12:18 +0300

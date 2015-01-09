@@ -1,0 +1,27 @@
+kubuntu (12.10-3) diskdump; urgency=low
+
+  * Add Greek keyboard layout in KDE
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 27 Feb 2013 20:02:36 +0200
+
+kubuntu (12.10-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Install x2go
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 25 Feb 2013 16:03:44 +0200
+
+kubuntu (12.10-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Configure acpid to immediately shutdown the power button is pressed
+  * Enable ssh-server at startup
+  * Enable ntpd at startup
+  * Disable ipv6 privacy extensions
+  * Disable time-dependent file system checking, and enable count-dependent
+  * Disable guest in lightdm
+  * Enable PCI Hotplug
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 16 Nov 2012 13:49:34 +0200

@@ -1,0 +1,11 @@
+netbsd (6.1-3) diskdump; urgency=low
+
+  * Recreate a 1G image
+  * Enable openssh server
+  * Enable ntpd server
+  * Add static configuration files for 8 NICs
+  * Add the Google ipv6 Name Servers in /etc/resolvconf.conf
+  * Reduce the dhclient timeout time
+  * Do a full upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 30 Apr 2014 13:06:35 +0300

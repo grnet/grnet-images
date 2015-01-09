@@ -1,0 +1,27 @@
+ubuntu-server (14.04-3) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 17:24:51 +0200
+
+ubuntu-server (14.04-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 10 Oct 2014 12:39:39 +0300
+
+ubuntu-server (14.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Install openssh server
+  * Install ntp server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Disable ipv6 privacy extensions
+  * Install Network Manager
+  * Add Greek locale
+  * Disable time-dependent file system checking, and enable count-dependent
+  * Unhide GRUB menu
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 08 May 2014 17:55:11 +0300

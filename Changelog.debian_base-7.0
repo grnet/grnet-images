@@ -1,0 +1,96 @@
+debian-base (7.0-8) diskdump; urgency=medium
+
+  * Change GRUB timeout to 10 seconds
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 15:40:58 +0200
+
+debian-base (7.0-7) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 13:17:24 +0200
+
+debian-base (7.0-6) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Thu, 09 Oct 2014 14:18:34 +0300
+
+debian-base (7.0-5) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Tue, 26 Aug 2014 14:51:11 +0300
+
+debian-base (7.0-4) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Thu, 10 Apr 2014 12:17:29 +0300
+
+debian-base (7.0-3) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Mon, 10 Feb 2014 19:04:23 +0200
+
+debian-base (7.0-2) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Wed, 25 Sep 2013 11:23:36 +0300
+
+debian-base (7.0-1) diskdump; urgency=low
+
+  * Upgraded from OldStable
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Tue, 28 May 2013 18:25:06 +0300
+
+debian-base (6.0-10) diskdump; urgency=low
+
+  * Full upgrade to version 6.0.7
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Tue, 26 Feb 2013 14:06:44 +0200
+
+debian-base (6.0-9) diskdump; urgency=low
+
+  * Full upgrade to version 6.0.6
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Tue, 16 Oct 2012 12:18:13 +0300
+
+debian-base (6.0-8) diskdump; urgency=low
+
+  * Full update
+  * Fix greek support
+  * Install network-manager
+  * Enable PCI Hotplug
+  * Disable time dependent file system checking
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Fri, 31 Aug 2012 16:55:26 +0300
+
+debian-base (6.0-7) diskdump; urgency=low
+
+  * Full update
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Fri, 20 Jan 2012 12:30:05 +0200
+
+debian-base (6.0-6) diskdump; urgency=low
+
+  * Convert to diskdump format
+  * Install NTP client
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Mon, 05 Dec 2011 19:36:07 +0200
+
+debian-base (6.0-5) extdump; urgency=low
+
+  * Install openssh-server
+
+ -- Nikos Skalkoto <skalkoto@grnet.gr>  Thu, 13 Oct 2011 16:20:56 +0300
+
+debian-base (6.0-4) extdump; urgency=low
+
+  * Install grub in the partition instead of the MBR.
+  * Use an ext3 partition with 4K block size.
+  * Remove -root field from the name.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 11 Oct 2011 12:04:37 +0300

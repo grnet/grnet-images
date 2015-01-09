@@ -1,0 +1,72 @@
+ubuntu-server (12.04-10) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Dec 2014 17:04:18 +0200
+
+ubuntu-server (12.04-9) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 10 Oct 2014 12:02:27 +0300
+
+ubuntu-server (12.04-8) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 10 Apr 2014 18:03:20 +0300
+
+ubuntu-server (12.04-7) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Put the ipv6 privacy extension setting in /etc/sysctl.conf otherwise
+    they don't get respected by NM
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 19 Dec 2013 12:48:47 +0200
+
+ubuntu-server (12.04-6) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Turn managed=true in NM. Eth0 was not managed by NM before
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 06 Dec 2013 18:51:08 +0200
+
+ubuntu-server (12.04-5) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Add grub recordfail timeout
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 27 Sep 2013 16:09:00 +0300
+
+ubuntu-server (12.04-4) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Unhide GRUB menu
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Mon 27 May 23:54:37 EEST 2013
+
+ubuntu-server (12.04-3) diskdump; urgency=low
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Install greek locale
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 26 Feb 2013 12:31:28 +0200
+
+ubuntu-server (12.04-2) diskdump; urgency=low
+
+  * Install ntp server
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Tue, 04 Dec 2012 14:52:59 +0200
+
+ubuntu-server (12.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Install openssh server
+  * Install ntp server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Disable ipv6 privacy extensions
+  * Enable PCI Hotplug by loading acpiphp module at boot
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Tue, 04 Dec 2012 13:25:25 +0200

@@ -1,0 +1,64 @@
+windows (2012-7) diskdump; urgency=low
+
+  * Full system upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 17 Oct 2014 14:28:10 +0300
+
+windows (2012-6) diskdump; urgency=low
+
+  * Add all virtio drivers to the Driver Store
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 23 Jan 2014 16:59:40 +0200
+
+windows (2012-5) diskdump; urgency=low
+
+  * Recreate the image from scratch
+  * Do a full system upgrade
+  * Install virtio drivers version 0.1-74
+  * Install mozilla-firefox
+  * Disable ipv6 privacy extensions
+  * Disable Teredo Tunneling Protocol
+  * Disable ISATAP Adapters
+  * Enable pings
+  * Disable automatic restarts upon boot failure
+  * Set hardware clock to UTC
+  * Disable Shutdown Event Tracker
+  * Enable Desktop Experience
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 22 Jan 2014 10:48:55 +0200
+
+windows (2012-4) diskdump; urgency=low
+
+  * Full system upgrade
+  * Fix virtual memory size to 512 MB
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 30 Sep 2013 18:25:48 +0300
+
+windows (2012-3) diskdump; urgency=low
+
+  * Full system upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 30 May 2013 13:00:37 +0300
+
+windows (2012-2) diskdump; urgency=low
+
+  * Disable Remote management
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 10 Oct 2012 16:04:53 +0300
+
+windows (2012-1) diskdump; urgency=low
+
+  * Initial Installation of Windows Server 2012 Datacenter Edition
+  * Install virtio drivers
+  * Install mozilla-firefox
+  * Disable ipv6 privacy extensions
+  * Disable Teredo Tunneling Protocol
+  * Disable ISATAP Adapters
+  * Enable pings
+  * Disable automatic restarts upon boot failure
+  * Set hardware clock to UTC
+  * Disable Shutdown Event Tracker
+  * Enable Desktop Experience
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 09 Oct 2012 16:15:33 +0300
+

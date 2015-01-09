@@ -1,0 +1,32 @@
+kubuntu-desktop (11.04-5) diskdump; urgency=low
+
+  * Convert image to diskdump
+  * Install NTP client
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 05 Dec 2011 19:49:24 +0200
+
+kubuntu-desktop (11.04-4) extdump; urgency=low
+
+  * Full upgrade (apt-get upgrade)
+  * Install grub in the partition, not the MBR
+  * remove -root field from the filename
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 22 Sep 2011 10:59:38 +0300
+
+kubuntu_desktop-11.04-3-x86_64-root.extdump
+
+  * Recreate image as extdump from a clean install.
+  * Change acpid scripts to immediately shutdown when an acpi powerdown event
+    occurs.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 22 Sep 2011 10:59:38 +0300
+
+kubuntu_desktop-11.04-2-x86_64-root.dump
+
+  * Add ssh-server.
+  * Full upgrade (apt-get upgrade).
+  * Add Firefox.
+  * Change Launch Feedback from bouncing cursor to passive cursor. The previous
+    configuration causes too much load for VNC.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 18 Jul 2011 13:19:29 +0300

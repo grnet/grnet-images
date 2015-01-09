@@ -1,0 +1,110 @@
+windows (2008R2-18) diskdump; urgency=medium
+
+  * Full System upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 16 Oct 2014 12:06:45 +0300
+
+windows (2008R2-17) diskdump; urgency=low
+
+  * Full system upgrade
+  * Remove ntp user
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 20 Mar 2014 19:26:22 +0200
+
+windows (2008R2-16) diskdump; urgency=low
+
+  * Make ipv6 work without having to use "ipconfig /renew6" the first time.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 17 Feb 2014 19:28:11 +0200
+
+windows (2008R2-15) diskdump; urgency=low
+
+  * Full system upgrade
+  * Disable ntpd
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 17 Feb 2014 12:22:24 +0200
+
+windows (2008R2-14) diskdump; urgency=low
+
+  * Fix virtual memory size to 512 MB. It was accidentally completelly removed
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 23 Jan 2014 14:49:43 +0200
+
+windows (2008R2-13) diskdump; urgency=low
+
+  * Add all virtio drivers to the Driver Store
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 22 Jan 2014 16:07:09 +0200
+
+windows (2008R2-12) diskdump; urgency=low
+
+  * Full system upgrade
+  * Update the virtio driver to 0.1-74
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 17 Jan 2014 14:07:33 +0200
+
+windows (2008R2-11) diskdump; urgency=low
+
+  * Full system upgrade
+  * Fix virtual memory size to 512 MB
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 30 Sep 2013 14:25:13 +0300
+
+windows (2008R2-10) diskdump; urgency=low
+
+  * Full system upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 30 May 2013 09:53:34 +0300
+
+windows (2008R2-9) diskdump; urgency=low
+
+  * Completely remove old virtio drivers from the system
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 31 Jul 2012 13:09:27 +0300
+
+windows (2008R2-8) diskdump; urgency=low
+
+  * Do a full windows-update
+  * Update Redhat's virtio block device and nic driver
+  * Update mozilla-firefox to 14.0.1
+  * Disable Teredo Tunneling Protocol
+  * Disable ISATAP Adapters
+  * Enable pings
+  * Disable automatic restarts upon boot failures
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 27 Jul 2012 17:59:19 +0300
+
+windows (2008R2-7) diskdump; urgency=low
+
+  * Recreate the windows image using the Datacenter Edition
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 26 Mar 2012 16:13:00 +0300
+
+windows (2008R2-6) diskdump; urgency=low
+
+  * Recreate windows in diskdump format
+  * Allow windows installer to do a 2 partions install
+  * Install windows port for ntpd (NTP for Windows)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 29 Nov 2011 15:41:02 +0200
+
+windows (2008R2-5) ntfsdump; urgency=low
+
+  * Install Redhat's virtio nic driver
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 15 Sep 2011 16:29:44 +0300
+
+windows (2008R2-4) ntfsdump; urgency=low
+
+  * Update mozilla-firefox to 6.0.1.
+  * Fix a minor thing were Server Manager was poping up in the first login.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 05 Sep 2011 14:57:29 +0300
+
+windows (2008R2-3) ntfsdump; urgency=low
+
+  * Update mozilla-firefox to 6.0.
+  * Set hardware clock to UTC.
+  * Clear Windows Event Log.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 24 Aug 2011 17:05:54 +0300

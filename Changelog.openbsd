@@ -1,0 +1,41 @@
+openbsd (5.5-1) diskdump; urgency=low
+
+  * Initial images
+  * Enable openssh server
+  * Enable ntpd server
+  * Add static configuration files for 8 NICs
+  * Add the Google ipv6 Name Servers in /etc/resolv.conf.tail
+  * Reduce the dhclient timeout time
+  * Disable mpbios driver
+  * Do a full upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Mon, 12 May 2014 12:26:55 +0300
+
+openbsd (5.4-3) diskdump; urgency=low
+
+  * Recreate a 1G image
+  * Enable openssh server
+  * Enable ntpd server
+  * Add static configuration files for 8 NICs
+  * Add the Google ipv6 Name Servers in /etc/resolv.conf.tail
+  * Reduce the dhclient timeout time
+  * Disable mpbios driver
+  * Do a full upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 08 Apr 2014 11:09:15 +0300
+
+openbsd (5.4-2) diskdump; urgency=low
+
+  * Add the Google Name Servers in /etc/resolv.conf.tail
+  * Add static configuration files for 8 NICs
+  * Reduce the timeout time in dhclient
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 14 Jan 2014 14:37:47 +0200
+
+openbsd (5.4-1) diskdump; urgency=low
+
+  * Initial Image
+  * Enable openssh server
+  * Enable ntpd server
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Tue Nov 12 14:28:36 ETT 2013

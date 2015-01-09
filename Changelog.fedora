@@ -1,0 +1,155 @@
+fedora (21-1) diskdump; urgency=medium
+
+  * Initial installation of Fedora MATE-compiz from fedora SPINS
+  * Full upgrade (yum update)
+  * Add user `user'
+  * Enable sshd at startup
+  * Change resolution to 1024x768
+  * Install x2goserver
+  * Enable count-dependent file system checking and disable time-dependent
+  * Don't allow applications to block acpi poweroff requests
+  * Add greek keyboard layout
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 30 Dec 2014 14:00:26 +0200
+
+fedora (20-5) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 09 Oct 2014 16:49:17 +0300
+
+fedora (20-4) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Tue, 26 Aug 2014 16:33:35 +0300
+
+fedora (20-3) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 10 Apr 2014 16:20:42 +0300
+
+fedora (20-2) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+  * Install acpid
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 13 Feb 2014 13:10:46 +0200
+
+fedora (20-1) diskdump; urgency=low
+
+  * Initial installation of Fedora MATE-compiz from fedora SPINS
+  * Full upgrade (yum update)
+  * Add user `user'
+  * Enable sshd at startup
+  * Change resolution to 1024x768
+  * Install x2goserver
+  * Enable count-dependent file system checking and disable time-dependent
+  * Don't allow applications to block acpi poweroff requests
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 10 Feb 2014 15:38:50 +0200
+
+fedora (19-1) diskdump; urgency=low
+
+  * Initial installation of Fedora MATE-compiz from fedora SPINS
+  * Full upgrade (yum update)
+  * Add user `user'
+  * Enable sshd at startup
+  * Change resolution to 1024x768
+  * Install acpid
+  * Install x2goserver
+  * Enable count-dependent file system checking and disable time-dependent
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 06 Dec 2013 18:41:51 +0200
+
+fedora (18-2) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 01 Oct 2013 16:31:34 +0300
+
+fedora (18-1) diskdump; urgency=low
+
+  * Initial installation
+  * Full upgrade (yum update)
+  * Add user `user'
+  * Enable ntp
+  * Make Gnome 3 fallback mode the default GUI for user
+  * Enable ssh-server at startup
+  * Change resolution to 1024x768
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 28 May 2013 15:22:58 +0300
+
+fedora (17-3) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+  * Install x2goserver and x2gognomebindings packages
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>, Fri 29 Mar 2013 15:48:26 EET 2013
+
+fedora (17-2) diskdump; urgency=low
+
+  * Full upgrade (yum update)
+  * Add the x2go repository in yum
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 01 Mar 2013 15:42:36 +0200
+
+fedora (17-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add priviledged user `user'
+  * Full upgrade (yum update)
+  * Enable ntp in system-config-date
+  * Configure /etc/acpid/actions/power.sh to imediatelly shutdown the machine
+  * Make Gnome 3 fallback mode the default GUI for user
+  * Enable ssh-server at startup
+  * Configure the firewall to allow ssh connections
+  * Install wget
+  * Enable count-dependent file system checking and disable time-dependent
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 30 Aug 2012 12:52:33 +0300
+
+fedora (16-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add priviledged user `user'
+  * Full upgrade (yum update)
+  * Install acpid
+  * Configure /etc/acpid/actions/power.sh to imediatelly shutdown the machine
+  * Make Gnome 3 fallback mode the default GUI for user
+  * Enable ssh-server at startup
+  * Configure the firewall to allow ssh connections
+  * Install wget
+  * Install nxinstaller script at /usr/local/sbin/
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 18 Jul 2011 20:12:19 +0300
+
+fedora (15-6) diskdump; urgency=low
+
+  * Convert image to diskdump
+  * Install NTP client
+
+fedora (15-5) extdump; urgency=low
+
+  * Convert image to extdump
+  * Remove -root field from the filename
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 29 Nov 2011 16:44:59 +0200
+
+fedora-15-4-x86_64-root.dump
+
+  * Full upgrade (yum update)
+  * Open ssh-server port in the firewall
+  * Add unprivileged user: user
+  * Make Gnome 3 Fallback mode the default GUI for user and root
+  * Install acpid
+  * Configure /etc/acpid/actions/power.sh to shutdown the machine without asking gnome-power-manager.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 26 Jul 2011 18:05:13 +0300
+
+fedora-15-3-x86_64-root.dump
+
+  * Enable ssh-server at startup.
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 18 Jul 2011 20:12:19 +0300
