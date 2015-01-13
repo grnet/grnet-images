@@ -1,3 +1,11 @@
+windows (2012-8) diskdump; urgency=medium
+
+  * Full system upgrade
+  * Upgrade virtio drivers to 0.1-94
+  * Add QXL driver
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 13 Jan 2015 18:09:01 +0200
+
 windows (2012-7) diskdump; urgency=low
 
   * Full system upgrade
