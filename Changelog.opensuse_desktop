@@ -1,3 +1,10 @@
+opensuse-desktop (13.2-1) diskdump; urgency=medium
+
+  * Full upgrade to 13.2
+  * Increase the Grub menu timeout to 10 seconds
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 15 Jan 2015 10:22:18 +0200
+
 opensuse-desktop (13.1-6) diskdump; urgency=medium
 
   * Full upgrade (zupper update)
