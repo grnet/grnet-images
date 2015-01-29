@@ -1,3 +1,9 @@
+kubuntu (12.04-9) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 14:38:31 +0200
+
 kubuntu (12.04-8) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
