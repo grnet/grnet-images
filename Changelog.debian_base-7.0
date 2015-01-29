@@ -1,3 +1,9 @@
+debian-base (7.0-9) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 13:01:59 +0200
+
 debian-base (7.0-8) diskdump; urgency=medium
 
   * Change GRUB timeout to 10 seconds
