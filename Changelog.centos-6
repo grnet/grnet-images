@@ -1,3 +1,9 @@
+centos (6-20) diskdump; urgency=medium
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 13:28:58 +0200
+
 centos (6-19) diskdump; urgency=medium
 
   * Update the grub timeout to 10 seconds
