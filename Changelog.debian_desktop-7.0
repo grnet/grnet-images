@@ -1,3 +1,9 @@
+debian-desktop (7.0-8) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 13:26:08 +0200
+
 debian-desktop (7.0-7) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
