@@ -1,3 +1,9 @@
+debian-base (6.0-18) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 13:07:49 +0200
+
 debian-base (6.0-17) diskdump; urgency=medium
 
   * Change GRUB timeout to 10 seconds
