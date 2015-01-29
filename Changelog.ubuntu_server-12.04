@@ -1,3 +1,9 @@
+ubuntu-server (12.04-11) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 15:38:58 +0200
+
 ubuntu-server (12.04-10) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
