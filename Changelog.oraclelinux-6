@@ -1,8 +1,14 @@
+oraclelinux (6-3) diskdump; urgency=medium
+
+  * Full upgrade (yum update)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 29 Jan 2015 16:17:41 +0200
+
 oraclelinux (6-2) diskdump; urgency=low
 
   * Full upgrade (yum update)
 
- -- Nikos Skalkotos <skalkoto@grnet.gr>, Fri, 10 Oct 2014 16:00:54 +0300
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 10 Oct 2014 16:00:54 +0300
 
 oraclelinux (6.5-1) diskdump; urgency=low
 
@@ -11,5 +17,5 @@ oraclelinux (6.5-1) diskdump; urgency=low
   * Install acpid
   * Disable time dependent file system check
 
- -- Nikos Skalkotos <skalkoto@grnet.gr>, Wed, 09 Apr 2014 13:56:51 +0300
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 09 Apr 2014 13:56:51 +0300
 
