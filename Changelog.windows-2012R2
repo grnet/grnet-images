@@ -1,3 +1,11 @@
+windows (2012R2-4) diskdump; urgency=medium
+
+  * Do a full system upgrade
+  * Roll back to the 0.1-81 virtio drivers (the newer caused BSOD)
+  * Uninstall the QXL driver for Windows
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 30 Jan 2015 13:40:48 +0200
+
 windows (2012R2-3) diskdump; urgency=medium
 
   * Do a full system upgrade
