@@ -1,3 +1,11 @@
+debian-base (7.0-10) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Put managed=true in /etc/NetworkManager/NetworkManager.conf
+  * Use ftp.cc.uor.gr Debian mirror in /etc/apt/sources.list that supports IPv6
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 16 Feb 2015 16:49:58 +0200
+
 debian-base (7.0-9) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
