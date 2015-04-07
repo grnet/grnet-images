@@ -1,3 +1,10 @@
+kubuntu (12.04-10) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Use ftp.cc.uor.gr mirror in /etc/apt/sources.list that supports IPv6
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 07 Apr 2015 12:25:47 +0300
+
 kubuntu (12.04-9) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
