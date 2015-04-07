@@ -1,3 +1,10 @@
+ubuntu-server (12.04-12) diskdump; urgency=medium
+
+  * Use ftp.cc.uor.gr mirror in /etc/apt/sources.list that supports IPv6
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 07 Apr 2015 10:52:19 +0300
+
 ubuntu-server (12.04-11) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
