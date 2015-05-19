@@ -1,0 +1,14 @@
+debian-desktop (8.0-1) diskdump; urgency=medium
+
+  * Initial OS installation of Debian 8.0 with MATE
+  * Install OpenSSH server
+  * Install Network Time Protocol daemon
+  * Add x2go repository and install x2goserver
+  * Disable time-dependent file system checking
+  * Enable count-dependent file system checking
+  * Use ftp.cc.uoc.gr Debian mirrors
+  * Put managed=true in /etc/NetworkManager/NetworkManager.conf
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 19 May 2015 11:38:19 +0300
+
+

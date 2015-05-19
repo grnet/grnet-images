@@ -5,8 +5,8 @@ debian-base (8.0-1) diskdump; urgency=medium
   * Install Network Manager
   * Put managed=true in /etc/NetworkManager/NetworkManager.conf
   * Install Network Time Protocol daemon
-  * Disabled time-dependednt file system checking
-  * Enabled count-depended file system checking
+  * Disabled time-dependent file system checking
+  * Enabled count-dependent file system checking
   * Use ftp.cc.uoc.gr Debian mirrors
 
  -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 15 May 2015 10:47:12 +0300
