@@ -1,3 +1,10 @@
+debian-base (8.0-2) diskdump; urgency=medium
+
+  * Use httpredir.debian.org for a Debian mirror
+  * Do a full upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 20 Oct 2015 17:30:53 +0300
+
 debian-base (8.0-1) diskdump; urgency=medium
 
   * Initial OS installation of Debian Base 8.0
