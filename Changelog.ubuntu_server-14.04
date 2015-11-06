@@ -1,3 +1,9 @@
+ubuntu-server (14.04-6) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 06 Nov 2015 18:16:01 +0200
+
 ubuntu-server (14.04-5) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
