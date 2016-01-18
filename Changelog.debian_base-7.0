@@ -1,3 +1,10 @@
+debian-base (7.0-12) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Use httpredir.debian.org for a Debian mirror
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Mon, 18 Jan 2016 17:28:55 +0200
+
 debian-base (7.0-11) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
