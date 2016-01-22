@@ -1,3 +1,16 @@
+fedora (23-1) diskdump; urgency=medium
+
+  * Initial installation of Fedora MATE-compiz from fedora SPINS
+  * Full upgrade (dnf upgrade)
+  * Add user `user'
+  * Change resolution to 1024x768
+  * Install x2goserver
+  * Enable count-dependent file system checking and disable time-dependent
+  * Don't allow applications to block acpi poweroff requests
+  * Add greek keyboard layout
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Fri, 22 Jan 2016 14:45:16 +0200
+
 fedora (21-3) diskdump; urgency=medium
 
   * Full upgrade (yum update)
