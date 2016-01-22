@@ -1,3 +1,9 @@
+ubuntu-desktop (14.04-6) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Fri, 22 Jan 2016 18:24:31 +0200
+
 ubuntu-desktop (14.04-5) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
