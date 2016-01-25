@@ -1,3 +1,9 @@
+debian-base (8.0-3) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade) 
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Mon, 25 Jan 2016 16:46:06 +0200
+
 debian-base (8.0-2) diskdump; urgency=medium
 
   * Use httpredir.debian.org for a Debian mirror
