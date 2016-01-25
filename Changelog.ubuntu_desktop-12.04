@@ -1,3 +1,9 @@
+ubuntu-desktop (12.04-13) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Mon, 25 Jan 2016 15:27:25 +0200
+
 ubuntu-desktop (12.04-12) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
