@@ -1,3 +1,9 @@
+opensuse-desktop (13.2-4) diskdump; urgency=medium
+
+  * Full upgrade (zypper update)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 26 Jan 2016 12:28:11 +0200
+
 opensuse-desktop (13.2-3) diskdump; urgency=medium
 
   * Full upgrade (zypper update)
