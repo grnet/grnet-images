@@ -1,3 +1,12 @@
+netbsd (7.0-1) diskdump; urgency=medium
+
+  * Initial creation
+  * Enable openssh server
+  * Enable ntpd server
+  * Permit root login in ssh
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Thu, 28 Jan 2016 15:50:45 +0200
+
 netbsd (6.1-3) diskdump; urgency=low
 
   * Recreate a 1G image
