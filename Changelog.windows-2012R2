@@ -1,3 +1,13 @@
+windows (2012R2-5) diskdump; urgency=medium
+
+  * Do a full system upgrade
+  * Upgrade virtio drivers to 0.1-102
+  * Install qemu-guest 0.1-102
+  * Install Spice guest tools 0.100
+  * Add Unattend.xml file with Greek keyboard layout and EET
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Mon, 01 Feb 2016 18:26:40 +0200
+
 windows (2012R2-4) diskdump; urgency=medium
 
   * Do a full system upgrade
