@@ -1,3 +1,13 @@
+windows (2008R2-21) diskdump; urgency=medium
+
+  * Full System upgrade
+  * Upgrade VirtIO Drivers to 0.1-102
+  * Install spice guest-tools 0.100
+  * Install 7-Zip
+  * Add Unattend.xml file with Greek keyboard layout and East European Time Zone
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 02 Feb 2016 17:29:22 +0200
+
 windows (2008R2-20) diskdump; urgency=medium
 
   * Full System upgrade
