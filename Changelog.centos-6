@@ -1,3 +1,9 @@
+centos (6-24) diskdump; urgency=medium
+
+  * Do a full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 01 Mar 2016 17:44:43 +0200
+
 centos (6-23) diskdump; urgency=medium
 
   * Do a full upgrade (yum upgrade)
