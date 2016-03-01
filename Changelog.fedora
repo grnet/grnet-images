@@ -1,3 +1,9 @@
+fedora (23-2) diskdump; urgency=medium
+
+  * Full upgrade (dnf upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 01 Mar 2016 18:49:05 +0200
+
 fedora (23-1) diskdump; urgency=medium
 
   * Initial installation of Fedora MATE-compiz from fedora SPINS
