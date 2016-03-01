@@ -1,3 +1,9 @@
+debian-desktop (8.0-3) diskdump; urgency=medium
+
+  * Do full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 01 Mar 2016 15:45:18 +0200
+
 debian-desktop (8.0-2) diskdump; urgency=medium
 
   * Use httpredir.debian.org for a Debian mirror
