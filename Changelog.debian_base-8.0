@@ -1,3 +1,9 @@
+debian-base (8.0-4) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 01 Mar 2016 17:45:35 +0200
+
 debian-base (8.0-3) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade) 
