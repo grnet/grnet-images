@@ -1,3 +1,9 @@
+oraclelinux (7-3) diskdump; urgency=medium
+
+  * Full upgrade (yum upgrade)
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Tue, 01 Mar 2016 17:45:59 +0200
+
 oraclelinux (7-2) diskdump; urgency=medium
 
   * Full upgrade (yum upgrade)
