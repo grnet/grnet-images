@@ -1,3 +1,10 @@
+windows (2012R2-6) diskdump; urgency=medium
+
+  * Do a full system upgrade
+  * Remove errorneous "vm.okeano.grnet.gr" DNS suffix
+
+ -- Nikos Skalkotos <skalkoto@darkstar.admin.grnet.gr>  Wed, 16 Mar 2016 17:27:52 +0200
+
 windows (2012R2-5) diskdump; urgency=medium
 
   * Do a full system upgrade
