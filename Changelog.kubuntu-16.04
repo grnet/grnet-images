@@ -1,0 +1,18 @@
+kubuntu (16.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Disable Predictable Network Interface Naming
+  * Configure acpid to immediately shutdown the power button is pressed
+  * Enable ssh-server at startup
+  * Enable ntpd at startup
+  * Disable ipv6 privacy extensions
+  * Disable time-dependent file system checking, and enable count-dependent
+  * Disable guest in lightdm
+  * Make NetworkManager manage all interfaces
+  * Install x2go
+  * Add Greek keyboard layout in KDE
+  * Use ftp.cc.uor.gr mirror in /etc/apt/sources.list that supports IPv6
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 08 Jun 2016 16:51:14 +0300
