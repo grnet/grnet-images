@@ -1,0 +1,17 @@
+ubuntu-server (16.04-1) diskdump; urgency=low
+
+  * Initial installation
+  * Add user `user'
+  * Full upgrade (apt-get dist-upgrade)
+  * Install openssh server
+  * Install ntp server
+  * Configure acpid to immediately shutdown when the powerbutton is pressed
+  * Disable ipv6 privacy extensions
+  * Install Network Manager
+  * Add Greek locale
+  * Disable time-dependent file system checking, and enable count-dependent
+  * Unhide GRUB menu
+  * Use ftp.cc.uor.gr mirror in /etc/apt/sources.list that supports IPv6
+  * Disable Predictable Network Interface Naming
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 08 Jun 2016 16:54:30 +0300
