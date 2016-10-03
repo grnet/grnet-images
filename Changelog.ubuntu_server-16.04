@@ -1,3 +1,11 @@
+ubuntu-server (16.04-2) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Empty /etc/network/interfaces
+  * Registered with NM_NETWORKING=yes
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 03 Oct 2016 15:42:56 +0300
+
 ubuntu-server (16.04-1) diskdump; urgency=low
 
   * Initial installation
