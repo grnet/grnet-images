@@ -1,3 +1,10 @@
+ubuntu-mate (16.04-2) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Registered with NM_NETWORKING=yes
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 06 Oct 2016 11:30:20 +0300
+
 ubuntu-mate (16.04-1) diskdump; urgency=low
 
   * Initial installation
