@@ -22,6 +22,7 @@ set -e
 RED='\e[1;31m'
 GREEN='\e[1;32m'
 RESET='\e[0m'
+PROG="$(realpath $0)"
 
 error() { echo -e "${RED}Error: $@${RESET}"  >&2; exit 1; }
 success() { echo -e "${GREEN}$@${RESET}" >&2; }
@@ -42,7 +43,7 @@ if ! pgrep NetworkManager &>/dev/null; then
 fi
 
 if [ $UID != 0 ]; then
-    exec sudo "$0" "$@"
+    exec sudo bash "$PROG"
 fi
 
 echo -n "Commenting out /etc/network/interfaces... "
