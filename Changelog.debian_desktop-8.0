@@ -1,3 +1,9 @@
+debian-desktop (8.0-4) diskdump; urgency=medium
+
+  * Do full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 06 Mar 2017 16:11:24 +0200
+
 debian-desktop (8.0-3) diskdump; urgency=medium
 
   * Do full upgrade (apt-get dist-upgrade)
