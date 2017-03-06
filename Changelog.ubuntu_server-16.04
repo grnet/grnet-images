@@ -1,3 +1,10 @@
+ubuntu-server (16.04-3) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+  * Registered with NM_NETWORKING=yes
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 06 Mar 2017 16:51:02 +0200
+
 ubuntu-server (16.04-2) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
