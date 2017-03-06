@@ -1,3 +1,10 @@
+coreos (1298.5.0-1) diskdump; urgency=medium
+
+  * Initial install
+  * Shrink root file system
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 06 Mar 2017 18:46:35 +0200
+
 coreos (835.13.0-1) diskdump; urgency=medium
 
   * Initial install
