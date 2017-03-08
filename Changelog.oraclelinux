@@ -1,3 +1,10 @@
+oraclelinux (7-4) diskdump; urgency=medium
+
+  * Full upgrade (yum upgrade)
+  * Make the latest uek kernel the default one
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 08 Mar 2017 14:52:49 +0200
+
 oraclelinux (7-3) diskdump; urgency=medium
 
   * Full upgrade (yum upgrade)
