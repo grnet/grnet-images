@@ -1,3 +1,12 @@
+windows (2012R2-7) diskdump; urgency=medium
+
+  * Do a full system upgrade
+  * Install Firefox 52 (64bit)
+  * Install spice guest tools 0.132 (this contains the virtio drivers too)
+  * Add Unattend.xml file with Greek keyboard layout and EET
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 10 Mar 2017 15:15:20 +0200
+
 windows (2012R2-6) diskdump; urgency=medium
 
   * Do a full system upgrade
