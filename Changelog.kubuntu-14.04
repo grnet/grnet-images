@@ -1,3 +1,9 @@
+kubuntu (14.04-8) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 10 Mar 2017 16:47:41 +0200
+
 kubuntu (14.04-7) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
