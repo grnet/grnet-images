@@ -1,0 +1,11 @@
+opensuse-server (42.2-1) diskdump; urgency=low
+
+ * Initial installation of openSUSE Leap 42.2
+ * Installed and configured ACPI
+ * Changed GRUB resolution to 1024x768
+ * Disabled time-dependent file system checking and enabled count-dependent
+ * Configured the NTP service
+ * Enabled Network Manager
+ * Performed a full upgrade (`zypper update')
+
+ -- Yiannis Tsiouris <tsiou@grnet.gr>  Wed, 15 Mar 2017 17:33:10 +0200
