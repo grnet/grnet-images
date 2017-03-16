@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. common.sh
+ROOTDIR="$(dirname "${BASH_SOURCE[0]}")"
+. "$ROOTDIR/common.sh"
 
 set -e
 
@@ -67,18 +68,18 @@ fi
 
 # Upload
 if [ "$NO_UPLOAD" != "yes" ]; then
-	$KAMAKI $ARGS -c kamakirc file upload -f "$DISKDUMP" /images --cloud "$CLOUD"
-	$KAMAKI $ARGS -c kamakirc file upload -f "$DISKDUMP".md5sum /images --cloud "$CLOUD"
+	$KAMAKI $ARGS -c "$KAMAKIRC" file upload -f "$DISKDUMP" /images --cloud "$CLOUD"
+	$KAMAKI $ARGS -c "$KAMAKIRC" file upload -f "$DISKDUMP".md5sum /images --cloud "$CLOUD"
 fi
 
 
 # Register
 if [ "$NO_REGISTER" != "yes" ]; then
-	$KAMAKI $ARGS -c kamakirc image register -f --name "$(cat "$REGNAME")" --location "/$CONTAINER/$BASENAME" --metafile "${DISKDUMP}.meta" --public --cloud "$CLOUD"
-	$KAMAKI $ARGS -c kamakirc file modify --read-permission=* /$CONTAINER/${BASENAME}.md5sum --cloud "$CLOUD"
+	$KAMAKI $ARGS -c "$KAMAKIRC" image register -f --name "$(cat "$REGNAME")" --location "/$CONTAINER/$BASENAME" --metafile "${DISKDUMP}.meta" --public --cloud "$CLOUD"
+	$KAMAKI $ARGS -c "$KAMAKIRC" file modify --read-permission=* /$CONTAINER/${BASENAME}.md5sum --cloud "$CLOUD"
 fi
 
-images=$({ $KAMAKI -c kamakirc file list /$CONTAINER --cloud "$CLOUD" |
+images=$({ $KAMAKI -c "$KAMAKIRC" file list /$CONTAINER --cloud "$CLOUD" |
            awk '{ print $2 }' |
            grep ^"$NAME-$VERSION-"[0-9]\\+-x86_64\.diskdump\$ |
            grep -v ^"$NAME-$VERSION-$TAG"-x86_64\.diskdump\$; }  || true)
@@ -89,9 +90,9 @@ if [ "$NO_DELETE" != "yes" ]; then
 	fi
 	for image in $images; do
 		echo "Deleting old image: $image"
-		$KAMAKI $ARGS -c kamakirc file delete $yes /$CONTAINER/"$image" --cloud "$CLOUD"
-		$KAMAKI $ARGS -c kamakirc file delete $yes /$CONTAINER/"$image".md5sum --cloud "$CLOUD"
-		$KAMAKI $ARGS -c kamakirc file delete $yes /$CONTAINER/"$image".meta --cloud "$CLOUD"
+		$KAMAKI $ARGS -c "$KAMAKIRC" file delete $yes /$CONTAINER/"$image" --cloud "$CLOUD"
+		$KAMAKI $ARGS -c "$KAMAKIRC" file delete $yes /$CONTAINER/"$image".md5sum --cloud "$CLOUD"
+		$KAMAKI $ARGS -c "$KAMAKIRC" file delete $yes /$CONTAINER/"$image".meta --cloud "$CLOUD"
 	done
 fi
 

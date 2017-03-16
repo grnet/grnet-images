@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. common.sh
+ROOTDIR="$(dirname "${BASH_SOURCE[0]}")"
+. "$ROOTDIR/common.sh"
 
 HOST_PORT=11023
 VNC_DISPLAY=1

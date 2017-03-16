@@ -20,3 +20,4 @@ split_image_name() {
 }
 
 : ${KAMAKI:="kamaki"}
+: ${KAMAKIRC:="$(dirname "${BASH_SOURCE[0]}")/kamakirc"}

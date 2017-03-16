@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. common.sh
+ROOTDIR="$(dirname "${BASH_SOURCE[0]}")"
+. "$ROOTDIR/common.sh"
 
 set -e
 
@@ -34,5 +35,5 @@ fi
 IMG_ID="$1"
 CLOUD="$2"
 
-kamaki -c kamakirc --cloud "$CLOUD" server create --name Test-$RANDOM --flavor-id $FLAVOR_ID --image-id "$IMG_ID"
+kamaki -c "$KAMAKIRC" --cloud "$CLOUD" server create --name Test-$RANDOM --flavor-id $FLAVOR_ID --image-id "$IMG_ID"
 

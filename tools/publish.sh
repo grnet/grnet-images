@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. common.sh
+ROOTDIR="$(dirname "${BASH_SOURCE[0]}")"
+. "$ROOTDIR/common.sh"
 
 set -e
 
@@ -13,9 +14,9 @@ CLOUD="$2"
 
 split_image_name "$DISKDUMP"
 
-DISKDUMP_URL=$($KAMAKI -c kamakirc --cloud "$CLOUD" file publish "/images/$DISKDUMP")
-META_URL=$($KAMAKI -c kamakirc --cloud "$CLOUD" file publish "/images/$DISKDUMP.meta")
-MD5SUM_URL=$($KAMAKI -c kamakirc --cloud "$CLOUD" file publish "/images/$DISKDUMP.md5sum")
+DISKDUMP_URL=$($KAMAKI -c "$KAMAKIRC" --cloud "$CLOUD" file publish "/images/$DISKDUMP")
+META_URL=$($KAMAKI -c "$KAMAKIRC" --cloud "$CLOUD" file publish "/images/$DISKDUMP.meta")
+MD5SUM_URL=$($KAMAKI -c "$KAMAKIRC" --cloud "$CLOUD" file publish "/images/$DISKDUMP.md5sum")
 
 echo "$NAME-$VERSION-x86_64.diskdump $DISKDUMP_URL"
 echo "$NAME-$VERSION-x86_64.diskdump.meta $META_URL"
