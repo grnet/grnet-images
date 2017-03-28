@@ -1,3 +1,11 @@
+debian-base (8.0-6) diskdump; urgency=medium
+
+  * Created /etc/modprobe.d/vga_cirrus.conf in order to load the 'cirrus'
+    module during boot.
+  * Full upgrade (apt dist-upgrade)
+
+ -- Yiannis Tsiouris <tsiou@grnet.gr>  Tue, 28 Mar 2017 12:27:56 +0300
+
 debian-base (8.0-5) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
