@@ -1,3 +1,9 @@
+windows (2008R2-23) diskdump; urgency=medium
+
+  * Full System upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 20 Jun 2017 11:28:22 +0300
+
 windows (2008R2-22) diskdump; urgency=medium
 
   * Full System upgrade
