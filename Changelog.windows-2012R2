@@ -1,3 +1,9 @@
+windows (2012R2-8) diskdump; urgency=medium
+
+  * Full system upgrade 
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 20 Jun 2017 14:50:03 +0300
+
 windows (2012R2-7) diskdump; urgency=medium
 
   * Do a full system upgrade
