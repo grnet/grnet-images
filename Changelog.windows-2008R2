@@ -1,3 +1,9 @@
+windows (2008R2-24) diskdump; urgency=medium
+
+  * Add missing Unattend.xml file with Greek keyboard layout and East European Time Zone
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 04 Jul 2017 15:18:21 +0300
+
 windows (2008R2-23) diskdump; urgency=medium
 
   * Full System upgrade
