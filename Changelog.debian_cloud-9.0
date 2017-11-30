@@ -1,0 +1,6 @@
+debian-base (9.2.2-20171105.1) diskdump; urgency=medium
+
+  * New image based on debian-9.2.2-20171105-openstack-amd64.qcow2
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 30 Nov 2017 12:58:46 +0200
+
