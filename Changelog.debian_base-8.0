@@ -1,3 +1,9 @@
+debian-base (8.0-7) diskdump; urgency=medium
+
+  * Full upgrade (apt dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 16 Jan 2018 14:33:51 +0200
+
 debian-base (8.0-6) diskdump; urgency=medium
 
   * Created /etc/modprobe.d/vga_cirrus.conf in order to load the 'cirrus'
