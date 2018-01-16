@@ -1,3 +1,11 @@
+debian-desktop (8.0-5) diskdump; urgency=medium
+
+  * Do full upgrade (apt-get dist-upgrade)
+  * Remove stale NetworkManager connection config
+  * Add NM_NETWORKING=yes image property
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 16 Jan 2018 14:11:08 +0200
+
 debian-desktop (8.0-4) diskdump; urgency=medium
 
   * Do full upgrade (apt-get dist-upgrade)
