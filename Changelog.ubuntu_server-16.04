@@ -1,3 +1,9 @@
+ubuntu-server (16.04-4) diskdump; urgency=medium
+
+  * Full upgrade (apt-get dist-upgrade)
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Tue, 16 Jan 2018 17:16:58 +0200
+
 ubuntu-server (16.04-3) diskdump; urgency=medium
 
   * Full upgrade (apt-get dist-upgrade)
