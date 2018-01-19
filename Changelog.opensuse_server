@@ -1,3 +1,10 @@
+opensuse-server (42.3-1) diskdump; urgency=medium
+
+  * Upgrade based on this:
+      https://en.opensuse.org/SDB:System_upgrade#Command_line
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 19 Jan 2018 14:38:39 +0200
+
 opensuse-server (42.2-1) diskdump; urgency=low
 
  * Initial installation of openSUSE Leap 42.2
