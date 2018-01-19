@@ -1,8 +1,18 @@
+freebsd (11.1-1) diskdump; urgency=medium
+
+  * Initial image
+  * Enable ntpd and sshd
+  * Permit ssh root login
+  * Add Greek support
+  * Do a full upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 19 Jan 2018 11:22:34 +0200
+
 freebsd (11.0-1) diskdump; urgency=medium
 
   * Initial image
   * Enable ntpd and sshd
-  * Premit ssh root login
+  * Permit ssh root login
   * Add Greek support
   * Do a full upgrade
 
