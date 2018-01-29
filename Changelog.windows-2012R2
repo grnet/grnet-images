@@ -1,3 +1,9 @@
+windows (2012R2-10) diskdump; urgency=medium
+
+  * Full system upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Jan 2018 11:35:43 +0200
+
 windows (2012R2-9) diskdump; urgency=medium
 
   * Add missing Unattend.xml file with Greek keyboard layout and EET
