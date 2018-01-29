@@ -1,3 +1,9 @@
+windows (2008R2-25) diskdump; urgency=medium
+
+  * Full Sustem upgrade
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Mon, 29 Jan 2018 13:01:53 +0200
+
 windows (2008R2-24) diskdump; urgency=medium
 
   * Add missing Unattend.xml file with Greek keyboard layout and East European Time Zone
